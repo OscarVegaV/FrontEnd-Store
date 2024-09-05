@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FronEnd Store</title>
+    <link rel="shortcut icon" href="./img/logoSVG/LMobile105x105.svg"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header"> 
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logo">
+        </a>
+    </header>
+    <nav class="nav">
+        <a class="nav__link nav__link--active" href="index.html">Tienda</a>
+        <a class="nav__link nav__link--active" href="nosotros.html">Nosotros</a>
+    </nav>
+    <main class="container">
+        <h1>React JS</h1>
+        <div class="shirt">
+          <img src="img/3.jpg" alt="image's product" class="shirt__img">
+          <div class="shirt__content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum optio possimus voluptatibus, nisi deleniti, quaerat sed eligendi beatae nihil eveniet officiis vitae veniam temporibus? Animi veritatis facilis perspiciatis maiores tempore blanditiis dolorum sequi.</p>
+            <form class="form">
+              <select class="form__field">
+                <option disabled selected>>-- Seleccionar Talla --< </option>
+                <option>Pequeña</option>
+                <option>Mediana</option>
+                <option>Grande</option>
+              </select>
+              <input class="form__field" type="number" placeholder="Cantidad" min="1">
+              <input class="form__submit" type="submit" value="Agregar al Carrito">
+            </form>
+          </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">Front end Store - Todos los derechos Reservados 2024.</p>
+    </footer>
+</html>
